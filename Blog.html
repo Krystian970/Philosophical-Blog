@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="philosophy.css">
+    <title>PHILOSOPHIA</title>
+    <script type="text/javascript">
+
+
+        function Odliczanie(){
+        
+                var dzisiaj = new Date();
+                var dzien = dzisiaj.getDate();
+        
+        var miesiac = dzisiaj.getMonth()+1;
+        
+        var rok = dzisiaj.getFullYear();
+        
+        var godzina = dzisiaj.getHours();
+        
+        var minuty = dzisiaj.getMinutes();
+        var sekundy = dzisiaj.getSeconds();
+        
+        document.getElementById("zegar").innerHTML=dzien+"/"+miesiac+"/"+rok+"|"+godzina+":"+minuty+":"+sekundy;
+        
+        setTimeout("Odliczanie()",1000);
+        
+        }
+                
+                       </script>
+</head>
+<body onload="Odliczanie();">
+    <div id="zegar"></div>
+    
+
+    <header>
+
+        <h1 class="logo">PHILOSOPHIA BLOG</h1>
+
+        <nav>
+
+
+<ul class="menu">
+
+    <li><a href="#">Home</a></li>
+    <li><a href="#">You are first time here?</a></li>
+    <li><a href="#">Why filozofy?</a></li>
+    <li><a href="#">About us </a></li>
+    <li><a href="#">Contact</a></li>
+
+
+
+</ul>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <article>
+
+<section> 
+
+<div class="categories">
+
+    <header>
+        <h1>Welcom in the World of Philosophy</h1>
+        <p>You are philosophy fan?You like the world of ideas?</p>
+    </header>
+
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" title="1915-1973"></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" title="1915-1973"></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" title="1915-1973"></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" title="1915-1973"></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" title="1915-1973"></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+
+</section>
+
+<section></section>
+
+<section></section>
+
+
+        </article>
+
+
+
+    </main>
+
+    <footer></footer>
+
+
+</body>
+</html>
