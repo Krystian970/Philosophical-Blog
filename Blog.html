@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="philosophy.css">
+    <title>PHILOSOPHIA</title>
+    <script type="text/javascript">
+
+
+        function Odliczanie(){
+        
+                var dzisiaj = new Date();
+                var dzien = dzisiaj.getDate();
+        
+        var miesiac = dzisiaj.getMonth()+1;
+        
+        var rok = dzisiaj.getFullYear();
+        
+        var godzina = dzisiaj.getHours();
+        
+        var minuty = dzisiaj.getMinutes();
+        var sekundy = dzisiaj.getSeconds();
+        
+        document.getElementById("zegar").innerHTML=dzien+"/"+miesiac+"/"+rok+"|"+godzina+":"+minuty+":"+sekundy;
+        
+        setTimeout("Odliczanie()",1000);
+        
+        }
+                
+                       </script>
+</head>
+<body onload="Odliczanie();">
+    <div id="zegar"></div>
+    
+
+    <header>
+
+        <h1 class="logo">PHILOSOPHIA BLOG</h1>
+
+        <nav>
+
+
+<ul class="menu">
+
+    <li><a href="#">Home</a></li>
+    <li><a href="#">You are first time here?</a></li>
+    <li><a href="#">Why filozofy?</a></li>
+    <li><a href="#">About us </a></li>
+    <li><a href="#">Contact</a></li>
+
+
+
+</ul>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <article>
+
+<section> 
+
+<div class="categories">
+
+    <header>
+        <h1>Welcom in the World of Philosophy</h1>
+        <p>You are philosophy fan?You like the world of ideas?</p>
+    </header>
+
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="alan-watts.jpg" alt="Alan Watts" ></a>
+                <figcaption>Alan Watts</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="de-mello.jpg" alt="De Mello" ></a>
+                <figcaption>De Mello</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="nietzsche.jpg" alt="Nietzsche" ></a>
+                <figcaption>Nietzsche</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="platon.jpg" alt="Platon" ></a>
+                <figcaption>Platon</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="kant.jpg" alt="Kant" ></a>
+                <figcaption>Kant</figcaption>
+            </figure>
+
+          </div>
+          <div class="author">
+
+            <figure>
+                <a href="#"><img src="emerson.jpg" alt="Ralph Waldo Emerson" ></a>
+                <figcaption>Ralph Waldo Emerson</figcaption>
+            </figure>
+
+          </div>
+
+</section>
+
+<section id="newest">
+
+<div class="entries">
+
+   <header> <h1>Latest entries</h1>
+    <p>The last three published articles</p></header>
+    
+
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="de-mello.jpg" alt="De Mello" ></div>
+        <div class="entrytxt">
+
+            <h2>Anthony De Mello</h2>
+            "You see persons and things not as they are but as you are" 
+
+        </div>
+
+    </div>
+
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="nietzsche.jpg" alt="Nietzsche" ></div>
+        <div class="entrytxt">
+
+            <h2>Nietzsche</h2>
+            "It is not a lack of love, but a lack of friendship that makes unhappy marriages"
+
+        </div>
+
+    </div>
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="platon.jpg" alt="Platon" ></div>
+        <div class="entrytxt">
+
+            <h2>Platon</h2>
+            
+“Be kind, for everyone you meet is fighting a harder battle”
+
+        </div>
+
+    </div>
+
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="kant.jpg" alt="Kant" ></div>
+        <div class="entrytxt">
+
+            <h2>Kant</h2>
+            “We are not rich by what we possess but by what we can do without” 
+
+        </div>
+
+    </div>
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="alan-watts.jpg" alt="Alan Watts" ></div>
+        <div class="entrytxt">
+
+            <h2>Alan Watts</h2>
+           
+“Man suffers only because he takes seriously what the gods made for fun” 
+        </div>
+
+    </div>
+    <div class="entry">
+
+
+        <div class="entryimg"><img src="emerson.jpg" alt="Ralph Waldo Emerson" ></div>
+        <div class="entrytxt">
+
+            <h2>Ralph Waldo Emerson</h2>
+            “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment” 
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+</section>
+
+<section>
+
+<div class ="contact">
+
+    <header> <h1>Contact with the author</h1>
+        <p>E-mail:krystian@wp.pl</p>
+       <p> nr:522984382</p>
+    
+    
+    </header>
+
+    <a href="#" class="bluebutton">Establishing Cooperation</a>
+
+
+</div>
+
+</section>
+
+
+        </article>
+
+
+
+    </main>
+
+
+</body>
+</html>
